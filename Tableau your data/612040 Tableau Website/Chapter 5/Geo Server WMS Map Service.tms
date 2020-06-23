@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<mapsource inline='true' version='8.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8000.13.0206.2115                -->
+  <connection class='OGC-WMS' inline='true' offline='' port='80' server='demo.opengeo.org' url='/geoserver/ows?' use-tiled-maps='true' />
+  <properties />
+  <mapsource-defaults version='8.1'>
+    <style>
+      <style-rule element='map-layer'>
+        <format attr='enabled' id='og:0' value='true' />
+      </style-rule>
+    </style>
+  </mapsource-defaults>
+</mapsource>

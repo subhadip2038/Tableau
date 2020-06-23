@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapsource inline="false" version="8.0">
+	<connection api-version="2" class="OpenStreetMap" indicator-server="mapquery.tableausoftware.com" layer-separator="/" max-stretch="1.2" min-shrink="0.667" offline="" port="80" server="maptile.tableausoftware.com" url-format="2.0/{K}/tile/d/{L}/ol/{Z}/{X}/{Y}.png" username="3881fbf7b5c6c9ee0839b141524de36b"/>    
+	<layers>
+		<layer display-name="Base" name="tab_base" show-ui="true" type="features"/>
+		<layer display-name="Land Cover" max-zoom="6" min-zoom="4" name="um_lcover" show-ui="true" type="features"/>
+		<layer display-name="Streets and Highways" min-zoom="4" name="pp2_line" show-ui="true" type="features"/>
+		<layer display-name="Country Borders" min-zoom="1" name="um_adm0_bnd" show-ui="true" type="features"/>
+		<layer display-name="First Administrative Level Names" min-zoom="4" name="pp2_statelabels" show-ui="true" type="features"/>
+		<layer display-name="First Administrative Level Borders" min-zoom="2" name="pp2_statebounds" show-ui="true" type="features"/>
+		<layer display-name="City Names" min-zoom="5" name="pp2_adminlabels" show-ui="true" type="features"/>
+		<layer display-name="US City Names" min-zoom="7" max-zoom="11" name="tab_citylabels" show-ui="true" type="features"/>
+		<layer display-name="US City Borders" min-zoom="7" max-zoom="11" name="tab_citybounds" show-ui="true" type="features"/>
+		<layer display-name="South Africa Municipality Names" min-zoom="3" name="s_africa_places_labels" show-ui="true" type="features"/>
+		<layer display-name="South Africa Municipality Borders" min-zoom="3" name="s_africa_places" show-ui="true" type="features"/>
+		<layer display-name="Custom Sales Territories" min-zoom="3" name="custom_sales" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (Heat Map)" min-zoom="4" name="Tornados_heat" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 0)" min-zoom="4" name="Tornados_f0" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 1)" min-zoom="4" name="Tornados_f1" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 2)" min-zoom="4" name="Tornados_f2" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 3)" min-zoom="4" name="Tornados_f3" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 4)" min-zoom="4" name="Tornados_f4" show-ui="true" type="features"/>
+		<layer display-name="Tornado Intensity (F Scale 5)" min-zoom="4" name="Tornados_f5" show-ui="true" type="features"/>
+		<layer display-name="US Commercial Airports" min-zoom="4" name="us_airports" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Flights from BOS" min-zoom="4" name="bos_flights" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: dp. SFO, On-Time" min-zoom="2" name="flight_delays_ontime" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: dp. SFO, 0-10 mins" min-zoom="2" name="flight_delays_1min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: dp. SFO, 10-20 mins" min-zoom="2" name="flight_delays_10min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: dp. SFO, 20-30 mins" min-zoom="2" name="flight_delays_20min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: dp. SFO, 30+ mins" min-zoom="2" name="flight_delays_30min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, On-Time" min-zoom="2" name="nat_delays_ontime" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, 0-10 mins" min-zoom="2" name="nat_delays_1min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, 10-20 mins" min-zoom="2" name="nat_delays_10min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, 20-30 mins" min-zoom="2" name="nat_delays_20min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, 30-60 mins" min-zoom="2" name="nat_delays_30min" show-ui="true" type="features"/>
+		<layer display-name="US FAA Flight Delays: All Airports, 60+ mins" min-zoom="2" name="nat_delays_60min" show-ui="true" type="features"/>
+		<layer display-name="Public Transit - North American Rail Lines" min-zoom="4" name="transit_lines" show-ui="true" type="features"/>
+		<layer display-name="Public Transit - North American Rail Stations" min-zoom="4" name="transit_station" show-ui="true" type="features"/> 		
+		<layer display-name="Public Transit - Chicago Bus Lines" min-zoom="4" name="pace_bus" show-ui="true" type="features"/>
+		<layer display-name="Public Transit - Chicago Bus Line Names" min-zoom="10" name="pace_bus_labels" show-ui="true" type="features"/>
+		<layer display-name="Washington DC Landmarks" min-zoom="4" name="dc_landmarks" show-ui="true" type="features"/>
+		<layer display-name="Washington DC Landmark Names" min-zoom="10" name="dc_labels" show-ui="true" type="features"/> 
+		<!--
+		<layer current-id="tableau.claritas_demog.summary.pop_c" display-name="Population" group="US Population" name="181657" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="tableau.claritas_demog.summary.mage_c" display-name="Age (median)" group="US Population" name="999980" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.etcartrkn" display-name="New Automobiles and Trucks" group="US Expenditures" name="999981" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.efood" display-name="Food" group="US Expenditures" name="999982" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.efawayfrhm" display-name="Food Away From Home" group="US Expenditures" name="999983" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.etgasoil" display-name="Gasoline and Motor Oil" group="US Expenditures" name="999984" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.ehmedservs" display-name="Medical Services" group="US Expenditures" name="999985" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.csmr_exp.attributes.ehinsurnce" display-name="Health Insurance" group="US Expenditures" name="999986" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_fhsc" display-name="Females 25+ High School Grad" group="US Education" name="999987" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_fbac" display-name="Females 25+ Bachelor's Degree" group="US Education" name="999988" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_fmas" display-name="Females 25+ Master's Degree" group="US Education" name="999989" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_mhsc" display-name="Males 25+ High School Grad" group="US Education" name="999990" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_mbac" display-name="Males 25+ Bachelor's Degree" group="US Education" name="999991" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.education.eeat_mmas" display-name="Males 25+ Master's Degree" group="US Education" name="999992" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etagrfrfsh" display-name="Agriculture, Forestry, Fishing" group="US Employment" name="999993" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etconstr" display-name="Construction" group="US Employment" name="999994" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.eteduhlth" display-name="Education and Health Services" group="US Employment" name="999995" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etfinact" display-name="Financial Services" group="US Employment" name="999996" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etinformat" display-name="Information" group="US Employment" name="999997" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etmanufact" display-name="Manufacturing" group="US Employment" name="999998" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etprofbus" display-name="Professional and Business" group="US Employment" name="999999" prepend-date="true" show-ui="true" type="data"/>
+		<layer current-id="umi.geolytics.employment.etretail" display-name="Retail" group="US Employment" name="999979" prepend-date="true" show-ui="true" type="data"/>
+		-->
+	</layers>
+	<map-styles>
+			<map-style display-name="Tableau Standard" name="">
+				<map-layer-style name="tab_base" request-string="mode=named|from=tableau1_2_base"/>
+				<map-layer-style name="um_lcover" request-string="mode=named|from=tableau1_2_landcover"/>
+				<map-layer-style name="pp2_line" request-string="mode=named|from=tableau1_2_roads"/>
+				<map-layer-style name="um_adm0_bnd" request-string="mode=named|from=tableau1_2_admin0_borders"/>
+				<map-layer-style name="pp2_statelabels" request-string="mode=named|from=tableau1_2_admin1_labels"/>
+				<map-layer-style name="pp2_statebounds" request-string="mode=named|from=tableau1_2_admin1_borders|opacity=.66"/>
+				<map-layer-style name="pp2_adminlabels" request-string="mode=named|from=umi_place_lbl"/>
+				<map-layer-style name="tab_citylabels" request-string="from=umi.us_census.place_geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=7|max_zoom=11|mode=label"/>
+				<map-layer-style name="tab_citybounds" request-string="from=umi.us_census.place_geometry|border=72171e_1.5|colors=clear|min_zoom=7|max_zoom=11|mode=simple"/>
+				<map-layer-style name="s_africa_places_labels" request-string="mode=label|from=alhdc.mp_sa.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc"/>
+				<map-layer-style name="s_africa_places" request-string="mode=simple|from=alhdc.mp_sa.geometry|opacity=.4|border=080808_0.5|style=147ccc"/>
+				<map-layer-style name="custom_sales" request-string="opacity=0.75|mode=class|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|values=East,Mid-west,South,West|border=000000_0.5|styles=f03b20,fecc5c,bd0026,030303/opacity=0.4|mode=simple|from=umi.us_census00.state_geometry|date=2009-01-01T08:00:00Z|border=000000_2/opacity=0.9|min_zoom=4|max_zoom=18|mode=label|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|face_name=DejaVu%20Sans%20Book|size=13|fill=800080|halo_fill=FFFFFF|halo_radius=1|min_distance=10|allow_overlap=true"/>
+				<map-layer-style name="Tornados_heat" request-string="mode=heatmap|colors=FFF0,0d05ff,24cf11,f7ff05,ffa50a,FF0000|density_scale=1|style=000000_5|from=umi.noaa_tornado.geometry|where=umi.noaa_tornado.attributes.f_scale__gt:2"/>
+				<map-layer-style name="Tornados_f0" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:0|style=F9E5CC"/>
+				<map-layer-style name="Tornados_f1" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:1|style=F3D8BD"/>
+				<map-layer-style name="Tornados_f2" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:2|style=F9D654"/>
+				<map-layer-style name="Tornados_f3" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:3|style=EC6C3F"/>
+				<map-layer-style name="Tornados_f4" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:4|style=EC633F"/>
+				<map-layer-style name="Tornados_f5" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:5|style=E44D2E"/>
+				<map-layer-style name="us_airports" request-string="mode=simple|from=umi.ntad_airports.geometry|style=840D05_7|opacity=0.5"/>
+				<map-layer-style name="bos_flights" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.dep_airport:BOS|style=60C3FF_3|opacity=0.5"/>
+				<map-layer-style name="flight_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay:0)|style=00FFCC_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=3DD7A9_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=79AE86_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=B68662_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:30)|style=F25D3F_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay:0|style=9BD19D_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=B3C886_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=CBC070_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=E3B85A_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:30,umi.flight.delay_attributes.airport_departure_delay__lt:59.9)|style=FBAF43_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_60min" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay__gt:60|style=F1594E_5|opacity=0.5"/>
+				<map-layer-style name="transit_lines" request-string="mode=simple|from=umi.mass_transit.line_geometry|style=B1C3CB_2"/>
+				<map-layer-style name="transit_station" request-string="mode=simple|from=umi.mass_transit.station_geometry|style=000000_5"/>
+				<map-layer-style name="pace_bus" request-string="mode=simple|from=pace.routes.geometry|style=cc5500_1"/>
+				<map-layer-style name="pace_bus_labels" request-string="from=pace.routes.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_labels" request-string="from=tableau.dc_historic.geometry|select=name|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_landmarks" request-string="mode=simple|from=tableau.dc_historic.geometry|opacity=.4|border=080808_0.5|style=cc5500_1"/>
+			</map-style>
+			<map-style display-name="Mapfluence Basemap" name="umibase">
+				<map-layer-style name="tab_base" request-string="mode=named|from=umi_land"/>
+				<map-layer-style name="um_lcover" request-string="mode=named|from=umi_land"/>
+				<map-layer-style name="pp2_line" request-string="mode=named|from=umi_road"/>
+				<map-layer-style name="um_adm0_bnd" request-string="mode=named|from=umi_admin0_bnd"/>
+				<map-layer-style name="pp2_statelabels" request-string="mode=named|from=umi_admin1_lbl"/>
+				<map-layer-style name="pp2_statebounds" request-string="mode=named|from=umi_admin1_bnd|opacity=.66"/>
+				<map-layer-style name="pp2_adminlabels" request-string="mode=named|from=umi_place_lbl"/>
+				<map-layer-style name="tab_citylabels" request-string="from=umi.us_census.place_geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=7|max_zoom=11|mode=label"/>
+				<map-layer-style name="tab_citybounds" request-string="from=umi.us_census.place_geometry|border=72171e_1.5|colors=clear|min_zoom=7|max_zoom=11|mode=simple"/>
+				<map-layer-style name="s_africa_places" request-string="mode=simple|from=alhdc.mp_sa.geometry|opacity=.4|border=080808_0.5|style=147ccc"/>
+				<map-layer-style name="s_africa_places_labels" request-string="mode=label|from=alhdc.mp_sa.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc"/>
+				<map-layer-style name="custom_sales" request-string="opacity=0.75|mode=class|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|values=East,Mid-west,South,West|border=000000_0.5|styles=f03b20,fecc5c,bd0026,030303/opacity=0.4|mode=simple|from=umi.us_census00.state_geometry|date=2009-01-01T08:00:00Z|border=000000_2/opacity=0.9|min_zoom=4|max_zoom=18|mode=label|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|face_name=DejaVu%20Sans%20Book|size=13|fill=800080|halo_fill=FFFFFF|halo_radius=1|min_distance=10|allow_overlap=true"/>
+				<map-layer-style name="Tornados_heat" request-string="mode=heatmap|colors=FFF0,0d05ff,24cf11,f7ff05,ffa50a,FF0000|density_scale=1|style=000000_5|from=umi.noaa_tornado.geometry|where=umi.noaa_tornado.attributes.f_scale__gt:2"/>
+				<map-layer-style name="Tornados_f0" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:0|style=F9E5CC"/>
+				<map-layer-style name="Tornados_f1" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:1|style=F3D8BD"/>
+				<map-layer-style name="Tornados_f2" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:2|style=F9D654"/>
+				<map-layer-style name="Tornados_f3" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:3|style=EC6C3F"/>
+				<map-layer-style name="Tornados_f4" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:4|style=EC633F"/>
+				<map-layer-style name="Tornados_f5" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:5|style=E44D2E"/>
+				<map-layer-style name="us_airports" request-string="mode=simple|from=umi.ntad_airports.geometry|style=840D05_7|opacity=0.5"/>
+				<map-layer-style name="bos_flights" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.dep_airport:BOS|style=60C3FF_3|opacity=0.5"/>
+				<map-layer-style name="flight_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay:0)|style=00FFCC_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=3DD7A9_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=79AE86_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=B68662_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:30)|style=F25D3F_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay:0|style=9BD19D_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=B3C886_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=CBC070_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=E3B85A_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:30,umi.flight.delay_attributes.airport_departure_delay__lt:59.9)|style=FBAF43_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_60min" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay__gt:60|style=F1594E_5|opacity=0.5"/>
+				<map-layer-style name="transit_lines" request-string="mode=simple|from=umi.mass_transit.line_geometry|style=B1C3CB_2"/>
+				<map-layer-style name="transit_station" request-string="mode=simple|from=umi.mass_transit.station_geometry|style=000000_5"/>
+				<map-layer-style name="pace_bus" request-string="mode=simple|from=pace.routes.geometry|style=cc5500_1"/>
+				<map-layer-style name="pace_bus_labels" request-string="from=pace.routes.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_labels" request-string="from=tableau.dc_historic.geometry|select=name|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_landmarks" request-string="mode=simple|from=tableau.dc_historic.geometry|opacity=.4|border=080808_0.5|style=cc5500_1"/>
+			</map-style>
+			<map-style display-name="High Resolution Imagery" name="highres">
+				<map-layer-style name="tab_base" request-string="mode=named|from=bing"/>
+				<map-layer-style name="um_lcover" request-string="mode=named|from=bing"/>
+				<map-layer-style name="pp2_line" request-string="mode=named|from=umi_road"/>
+				<map-layer-style name="um_adm0_bnd" request-string="mode=named|from=umi_admin0_bnd"/>
+				<map-layer-style name="pp2_statelabels" request-string="mode=named|from=umi_admin1_lbl"/>
+				<map-layer-style name="pp2_statebounds" request-string="mode=named|from=umi_admin1_bnd|opacity=.66"/>
+				<map-layer-style name="pp2_adminlabels" request-string="mode=named|from=umi_place_lbl"/>
+				<map-layer-style name="tab_citylabels" request-string="from=umi.us_census.place_geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=7|max_zoom=11|mode=label"/>
+				<map-layer-style name="tab_citybounds" request-string="from=umi.us_census.place_geometry|border=72171e_1.5|colors=clear|min_zoom=7|max_zoom=11|mode=simple"/>
+				<map-layer-style name="s_africa_places_labels" request-string="mode=label|from=alhdc.mp_sa.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc"/>
+				<map-layer-style name="s_africa_places" request-string="mode=simple|from=alhdc.mp_sa.geometry|opacity=.4|border=080808_0.5|style=147ccc"/>
+				<map-layer-style name="custom_sales" request-string="opacity=0.75|mode=class|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|values=East,Mid-west,South,West|border=000000_0.5|styles=f03b20,fecc5c,bd0026,030303/opacity=0.4|mode=simple|from=umi.us_census00.state_geometry|date=2009-01-01T08:00:00Z|border=000000_2/opacity=0.9|min_zoom=4|max_zoom=18|mode=label|from=tableau.experian.sales_regions_by_state|date=2009-01-01T08:00:00Z|select=name|face_name=DejaVu%20Sans%20Book|size=13|fill=800080|halo_fill=FFFFFF|halo_radius=1|min_distance=10|allow_overlap=true"/>
+				<map-layer-style name="Tornados_heat" request-string="mode=heatmap|colors=FFF0,0d05ff,24cf11,f7ff05,ffa50a,FF0000|density_scale=1|style=000000_5|from=umi.noaa_tornado.geometry|where=umi.noaa_tornado.attributes.f_scale__gt:2"/>
+				<map-layer-style name="Tornados_f0" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:0|style=F9E5CC"/>
+				<map-layer-style name="Tornados_f1" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:1|style=F3D8BD"/>
+				<map-layer-style name="Tornados_f2" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:2|style=F9D654"/>
+				<map-layer-style name="Tornados_f3" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:3|style=EC6C3F"/>
+				<map-layer-style name="Tornados_f4" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:4|style=EC633F"/>
+				<map-layer-style name="Tornados_f5" request-string="mode=simple|from=umi.noaa_tornado.geometry|select=umi.noaa_tornado.attributes.f_scale|where=umi.noaa_tornado.attributes.f_scale:5|style=E44D2E"/>
+				<map-layer-style name="us_airports" request-string="mode=simple|from=umi.ntad_airports.geometry|style=840D05_7|opacity=0.5"/>
+				<map-layer-style name="bos_flights" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.dep_airport:BOS|style=60C3FF_3|opacity=0.5"/>
+				<map-layer-style name="flight_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay:0)|style=00FFCC_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=3DD7A9_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=79AE86_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=B68662_5|opacity=0.5"/>
+				<map-layer-style name="flight_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.dep_airport:SFO,umi.flight.delay_attributes.airport_departure_delay__gt:30)|style=F25D3F_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_ontime" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay:0|style=9BD19D_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_1min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:0.1,umi.flight.delay_attributes.airport_departure_delay__lt:9.9)|style=B3C886_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_10min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:10,umi.flight.delay_attributes.airport_departure_delay__lt:19.9)|style=CBC070_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_20min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:20,umi.flight.delay_attributes.airport_departure_delay__lt:29.9)|style=E3B85A_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_30min" request-string="mode=simple|from=umi.flight.delay_geometry|where=AND(umi.flight.delay_attributes.airport_departure_delay__gt:30,umi.flight.delay_attributes.airport_departure_delay__lt:59.9)|style=FBAF43_5|opacity=0.5"/>
+				<map-layer-style name="nat_delays_60min" request-string="mode=simple|from=umi.flight.delay_geometry|where=umi.flight.delay_attributes.airport_departure_delay__gt:60|style=F1594E_5|opacity=0.5"/>
+				<map-layer-style name="transit_lines" request-string="mode=simple|from=umi.mass_transit.line_geometry|style=B1C3CB_2"/>
+				<map-layer-style name="transit_station" request-string="mode=simple|from=umi.mass_transit.station_geometry|style=000000_5"/>
+				<map-layer-style name="pace_bus" request-string="mode=simple|from=pace.routes.geometry|style=cc5500_1"/>
+				<map-layer-style name="pace_bus_labels" request-string="from=pace.routes.geometry|wrap_width=20|select=name|face_name=DejaVu Sans Book|fill=174b72|size=10|halo_radius=2|halo_fill=ebecdc|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_labels" request-string="from=tableau.dc_historic.geometry|select=name|min_zoom=10|mode=label"/>
+				<map-layer-style name="dc_landmarks" request-string="mode=simple|from=tableau.dc_historic.geometry|opacity=.4|border=080808_0.5|style=cc5500_1"/>
+			</map-style>
+	</map-styles>
+	<geometries>
+		<geometry display-name="State" name="State" request-string="umi.us_census00.state_geometry"/>
+		<geometry display-name="Metro Boundaries" name="Metro Boundaries" request-string="umi.us_census00.place_geometry"/>
+		<geometry display-name="County" name="County" request-string="umi.us_census00.county_geometry"/>
+		<geometry display-name="ZIP" name="Zip Code" request-string="umi.us_census00.zcta_geometry"/>
+		<geometry display-name="Census Tracts" name="Census Tracts" request-string="umi.us_census00.tract_geometry"/>
+		<geometry display-name="Block Group" name="Block Group" request-string="umi.us_census00.block_group_geometry"/>
+	</geometries>
+	    <mapsource-defaults version="8.0">
+        <style>
+            <style-rule element="map-layer">
+                <format attr="enabled" id="tab_base" value="true"/>
+                <format attr="enabled" id="um_lcover" value="true"/>
+                <format attr="enabled" id="pp2_adminlabels" value="true"/>
+            </style-rule>
+            <style-rule element="map">
+                <format attr="washout" value="0.0"/>
+            </style-rule>
+        </style>
+    </mapsource-defaults>
+</mapsource>
